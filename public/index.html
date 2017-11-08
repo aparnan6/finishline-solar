@@ -58,7 +58,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-5" alight="right" style="background-color: grey;">
+            <div class="col-sm-5" alight="right" style="background-color: lightgrey;">
               
 <style>
 img {
@@ -69,28 +69,42 @@ img {
   <p>To make the tabs toggleable, add the data-toggle="tab" attribute to each link. Then add a .tab-pane class with a unique ID for every tab and wrap them inside a div element with class .tab-content.</p>
 </style>
   <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-    <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
-    <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
-    <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
+    <li class="active"><a data-toggle="tab" href="#home">Location</a></li>
+    <li><a data-toggle="tab" href="#menu5">Solar Panels</a></li>
+    <li><a data-toggle="tab" href="#menu1">Costs</a></li>
+    <li><a data-toggle="tab" href="#menu3">Savings</a></li>
+    <li><a data-toggle="tab" href="#menu2">Installers</a></li>
+    <li><a data-toggle="tab" href="#menu4">Providers</a></li>
+
   </ul>
 
   <div class="tab-content">
     <div id="home" class="tab-pane fade in active">
-      <h3>HOME</h3>
+      <h3>Your location</h3>
       <p></p>
+        <iframe src="//www.google.com/maps/embed/v1/place?q=Harrods,Brompton%20Rd,%20UK
+      &zoom=17
+      &key=AIzaSyBQ2QKZzo1jD9fwVaYW8Z4dPNlQajXR6-E">
+          </iframe>
     </div>
     <div id="menu1" class="tab-pane fade">
-      <h3>Menu 1</h3>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h3>Menu 3</h3>
+      <p>Predicted Savings and Costs</p>
+        <img src="costs.png" alt="C">
     </div>
+
     <div id="menu2" class="tab-pane fade">
-      <h3>Menu 2</h3>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+      <h3>Pricing and Reviews</h3>
+      <p></p>
+        <img src="install.png" alt="Source"> 
+        <img src="anotherinstall.png" alt="AnotherSouce">
+
     </div>
     <div id="menu3" class="tab-pane fade">
-      <h3>Menu 3</h3>
-      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+      <h3>Predictions for Savings</h3>
+        <img src="savings.png" alt="Source"> 
+
+      <p></p>
     </div>
   </div>
 </div>
