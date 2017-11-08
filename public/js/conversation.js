@@ -4,6 +4,7 @@
 /* global Api: true, Common: true*/
 
 var ConversationPanel = (function() {
+  var enable=true;
   var settings = {
     selectors: {
       chatBox: '#scrollingChat',
