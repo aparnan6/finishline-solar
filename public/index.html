@@ -29,7 +29,7 @@
          
           <div class="input-group">
             
-              <input class="input responsive-column" onkeydown="ConversationPanel.inputKeyDown(event, this); if(event.keyCode==13) { document.getElementById('textInput').disabled=false; }" placeholder="Enter Address" type="text" id="address-input" placeholder="Address?" type="search" style="width: 100vh"> 
+              <input class="input responsive-column" onkeydown="ConversationPanel.inputKeyDown(event, this); if(event.keyCode==13) { document.getElementById('textInput').disabled=false; document.getElementById('textInput').placeholder='Begin asking questions!';}" placeholder="Enter Address" type="text" id="address-input" placeholder="Address?" type="search" style="width: 100vh"> 
               <script>
                  var placesAutocomplete = places({
                    container: document.querySelector('#address-input')
@@ -45,7 +45,7 @@
                   <div class="chat-column" >
                     <div id="scrollingChat"></div><label class="inputOutline" for="textInput">
 
-                    <input disabled="disabled" class="input responsive-column" id="textInput" onkeydown="ConversationPanel.inputKeyDown(event, this)" placeholder="Type something" type="text"></label>
+                    <input disabled="disabled" class="input responsive-column" id="textInput" onkeydown="ConversationPanel.inputKeyDown(event, this)" placeholder="Enter Address to Begin" type="text"></label>
                   </div>
                 </div>
                 <div class="fixed-column content-column" id="payload-column" >
